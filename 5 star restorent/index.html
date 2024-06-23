@@ -1,0 +1,1493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurent Layout</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Baloo+Bhaijaan+2:wght@600;800&family=Baloo+Da+2:wght@700&family=Be+Vietnam+Pro:ital,wght@0,900;1,500;1,800;1,900&family=Bree+Serif&family=DM+Serif+Text:ital@1&family=Kaushan+Script&family=Lobster&family=Lora&family=Nanum+Myeongjo:wght@700;800&family=Poppins:ital,wght@0,800;1,100;1,200;1,700&family=Source+Sans+Pro:ital,wght@0,600;0,700;1,400;1,600&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Baloo+Bhaijaan+2:wght@600;800&family=Baloo+Da+2:wght@700&family=Be+Vietnam+Pro:ital,wght@0,900;1,500;1,800;1,900&family=Bree+Serif&family=DM+Serif+Text:ital@1&family=Kaushan+Script&family=Lora&family=Nanum+Myeongjo:wght@700;800&family=Nosifer&family=Poppins:ital,wght@0,800;1,100;1,200;1,700&family=Source+Sans+Pro:ital,wght@0,600;0,700;1,400;1,600&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap"
+        rel="stylesheet">
+
+</head>
+<style>
+    header {
+        display: flex;
+        height: 11vh;
+        align-items: center;
+        background-color: black;
+        position: sticky;
+        top: 0px;
+        left: 0px;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    /* header #logo img {
+        width: 100px;
+        filter: invert(100%);
+    } */
+    header #logo h4 {
+        color: white;
+        text-align: center;
+        margin-left: 26px;
+        font-weight: bold;
+
+    }
+
+    header #logo h4::after {
+        content: "RESTO..";
+        color: rgba(6, 192, 6, 0.904);
+
+    }
+
+    header #navbar {
+        margin-left: 22px;
+    }
+
+    header #navbar ul {
+
+        display: flex;
+        align-items: center;
+    }
+
+    header #navbar ul li {
+        list-style: none;
+        font-size: 1.rem;
+        /* background: black; */
+        /* border: 0.4px solid white; */
+    }
+
+    header #navbar ul li a {
+        color: white;
+        display: block;
+        margin: 4px 6px;
+        padding: 5px 14px;
+        /* border: 2px solid white; */
+        border-radius: 5px;
+        text-decoration: none;
+        background-color: black;
+        /* color: rgb(73, 68, 68); */
+        border-right: 1px solid white;
+    }
+
+    header #navbar ul li a.active {
+        color: black;
+        font-size: 1.1rem;
+        /* background-color: rgb(143, 228, 15); */
+        background-color: rgba(6, 192, 6, 0.904);
+        font-weight: bold;
+        box-shadow: 0px 0px 3px 2px ghostwhite;
+    }
+
+    header #navbar ul li a.active:hover {
+        color: rgba(6, 192, 6, 0.904);
+        background-color: black;
+        font-weight: bold;
+
+    }
+
+    header #navbar ul li a:hover {
+        color: rgba(6, 192, 6, 0.904);
+
+
+
+    }
+
+    /* main secton-1 section starts hear */
+    .main-1 {}
+
+    #section-1 {
+        height: 100vh;
+        display: flex;
+        justify-content: space-evenly;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #section-1 #div-first {
+        width: 45%;
+
+    }
+
+    #section-1 #div-first h1 {
+        margin: 7px 2px;
+        margin-bottom: 0px;
+        padding: 1px 1px;
+        letter-spacing: 0.089em;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    #section-1 #div-first h1::after {
+        content: "Dish";
+        color: rgba(6, 192, 6, 0.904);
+    }
+
+    #section-1 #div-first h3 {
+        margin: 1px 1px;
+        padding: 1px 1px;
+        letter-spacing: 0.089em;
+        /* font-family: 'Source Sans Pro', sans-serif; */
+        font-family: 'Bree Serif', serif;
+
+
+    }
+
+    #section-1 #div-first h3::after {
+        content: "Pizza";
+        color: black;
+        /* animation: mohit 5s linear infinite; */
+
+    }
+
+    /* @keyframes mohit{
+        0%{
+            content:" Hott Pizza";
+        color: rgba(6, 192, 6, 0.904);
+            
+        }
+        50%{
+         content: "Delicieus Food";
+        color: rgba(6, 192, 6, 0.904);
+
+        }
+
+        
+        100%{
+            content: "Testy Food";
+        color: rgba(6, 192, 6, 0.904);
+
+        }
+    } */
+
+    #section-1 #div-first p {
+        text-align: justify;
+        font-size: 0.85rem;
+        color: rgb(73, 68, 68);
+        font-family: 'Bree Serif', serif;
+
+
+    }
+
+    #section-1 #div-first .btn-2 {
+        color: white;
+        border: 2px solid black;
+        border-radius: 4px;
+        margin: 2px 2px;
+        /* margin-left: 130px; */
+        padding: 4px 10px;
+        cursor: pointer;
+        font-family: 'Bree Serif', serif;
+        background-color: rgba(6, 192, 6, 0.904);
+    }
+
+    #section-1 #div-first .btn-2:hover {
+        color: rgba(6, 192, 6, 0.904);
+        border: 2px solid rgba(6, 192, 6, 0.904);
+        background-color: #fff;
+    }
+
+
+
+
+
+    #section-1 #div-second img {
+        width: 512px;
+        margin-left: 37px;
+
+    }
+
+    /* .main-1 {}
+
+    #section-1 {
+        background: url("bg-12.jpg")no-repeat center center/cover;
+         opacity: 0.8;
+        height: 93vh;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #section-1 h1 {
+        margin: 2px 2px;
+        padding: 1px 1ox;
+         letter-spacing: 0.1em; 
+        text-shadow: 0px 0px 4px 4px black;
+        font-size: 2rem;
+        font-style: italic;
+        font-family: 'Bree Serif', serif;
+        font-family: 'Nosifer', cursive;
+
+    }
+
+    #section-1 h1::after {
+        content: " 5 STAR RESTORENT";
+        color: rgba(6, 192, 6, 0.904);
+        text-shadow: 2px 2px 6px black;
+
+    }
+
+
+    #section-1 h3 {
+        margin: 13px 2px;
+        margin-bottom: 13px;
+        font-family: 'Lora', serif;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-shadow: 2px 2px 6px black;
+        font-size: 1.5rem;
+
+
+    }
+
+    #section-1 p {
+        margin: 2px 265px;
+        padding: 1px 1ox;
+        text-align: center;
+        font-size: 0.89rem;
+        font-family: 'Bree Serif', serif;
+        text-shadow: 2px 2px 6px black;
+
+    }  */
+
+
+    /* main-2 section starts hear */
+    #main-2 {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(253, 251, 251);
+    }
+
+    #main-2 #one {
+        text-align: center;
+    }
+
+    #main-2 #one h1 {
+        margin: -10px 1px;
+        margin-top: 32px;
+        font-size: 1.2rem;
+        padding: 1px 1px;
+        font-style: italic;
+        /* letter-spacing: 0.3em; */
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Nosifer', cursive;
+        color: rgba(6, 192, 6, 0.904);
+
+    }
+
+    /* #main-2 h1::after {
+        content: "US";
+        color: rgba(6, 192, 6, 0.904);
+        
+    } */
+
+    #main-2 #one h2 {
+        text-align: center;
+        margin: 1px 1px;
+        padding: 1px 1px;
+        font-size: 2.2rem;
+        letter-spacing: 0.018em;
+        font-family: 'Kaushan Script', cursive;
+    }
+
+    #main-2 #section-2 {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #main-2 #section-2 #aside-1 {
+        width: 45%;
+        text-align: center;
+        margin-left: 30px;
+
+    }
+
+    #main-2 #section-2 #aside-1 img {
+        width: 100px;
+        display: block;
+        margin: 1px auto;
+    }
+
+    #main-2 #section-2 #aside-1 h2 {
+        margin: 0px 2px;
+        margin-top: 0px;
+        padding: 1px 1px;
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    #main-2 #section-2 #aside-1 h2 {}
+
+    #main-2 #section-2 #aside-1 p {
+        margin: 20px 5px;
+        padding: 1px 1px;
+        text-align: justify;
+        font-size: 0.83rem;
+        color: rgb(73, 68, 68);
+        font-family: 'Bree Serif', serif;
+
+    }
+
+
+    #main-2 #section-2 #aside-2 img {
+        width: 500px;
+        margin-top: 70px;
+
+    }
+
+    /* main-3 section starts hear */
+
+    #main-3 {
+        height: 215vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(247, 239, 239);
+    }
+
+    #main-3 h1 {
+        text-align: center;
+        margin: 2px 2px;
+        margin-bottom: -10px;
+        padding: 1px 1px;
+        font-size: 1.2rem;
+        color: rgba(6, 192, 6, 0.904);
+        font-family: 'Nosifer', cursive;
+        font-style: italic;
+
+
+    }
+
+    #main-3 h2 {
+        text-align: center;
+        margin: 2px 2px;
+        margin-bottom: 44px;
+        padding: 1px 1px;
+        letter-spacing: 0.018em;
+        font-size: 2.2rem;
+        font-family: 'Kaushan Script', cursive;
+
+    }
+
+    #main-3 #aside-1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    #main-3 #aside-1 #section-3 {
+        width: 29%;
+        margin: 4px 4px;
+        padding: 15px 1px;
+        /* border: 2px solid red; */
+        background-color: #fff;
+        box-shadow: 0px 0px 2px 1px #a59d9d;
+        cursor: pointer;
+        transition: All 0.5s linear;
+    }
+
+    #main-3 #aside-1 #section-3:hover {
+        transform: scale(1.03);
+    }
+
+    #main-3 #section-3 img {
+        width: 347px;
+        display: block;
+        margin: auto;
+    }
+
+    #main-3 #section-3 h3 {
+        margin: 2px 2px;
+        padding: 1px 1px;
+        margin-top: 10px;
+        text-align: center;
+
+
+    }
+
+    #main-3 #section-3 h3::after {
+        content: "12.44 $";
+        font-size: 1rem;
+        color: rgba(6, 192, 6, 0.904);
+
+    }
+
+
+    #main-3 #section-3 .btn {
+        color: white;
+        border: 2px solid black;
+        border-radius: 4px;
+        margin: 2px 33px;
+        margin-left: 130px;
+        padding: 4px 10px;
+        cursor: pointer;
+        background-color: rgba(6, 192, 6, 0.904);
+
+    }
+
+    #main-3 #section-3 .btn:hover {
+        font-weight: bold;
+        color: rgba(6, 192, 6, 0.904);
+        background-color: #fff;
+        border: 2px solid rgba(6, 192, 6, 0.904);
+    }
+
+
+    /* main-4 sectionstarts hear */
+
+    #main-4 {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(253, 252, 252);
+    }
+
+    #main-4 #two {
+        text-align: center;
+    }
+
+    #main-4 #two h3 {
+        margin: 2px 2px;
+        margin-bottom: -10px;
+        padding: 1px 1px;
+        font-size: 1.2rem;
+        font-style: italic;
+        color: rgba(6, 192, 6, 0.904);
+        font-family: 'Nosifer', cursive;
+    }
+
+    #main-4 #two h1 {
+        margin: 2px 2px;
+        margin-bottom: 44px;
+        padding: 1px 1px;
+        font-size: 2.2rem;
+        letter-spacing: 0.018em;
+        font-family: 'Kaushan Script', cursive;
+    }
+
+    #main-4 #section-5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+
+    }
+
+    #main-4 #section-5 #aside-5 {
+        width: 43%;
+        margin-right: 28px;
+        padding: 1px 1px;
+    }
+
+    #main-4 #section-5 #aside-5 h2 {
+        margin: 0px 2px;
+        margin-top: 0px;
+        font-size: 1.4rem;
+        padding: 1px 1px;
+        font-family: 'Source Sans Pro', sans-serif;
+
+    }
+
+    /* #main-4 #section-5 #aside-5 h2::after{
+        content: "Services";
+        color: rgba(6, 192, 6, 0.904); */
+
+
+
+    #main-4 #section-5 #aside-5 p {
+        font-size: 0.85rem;
+        color: rgb(73, 68, 68);
+        font-family: 'Bree Serif', serif;
+
+    }
+
+    #main-4 #section-5 #aside-6 img {
+        width: 500px;
+    }
+
+
+    /* #main-8 section starts hear */
+
+    #main-8 {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #main-8 #dust h1 {
+        margin-bottom: 44px;
+        padding: 1px 1px;
+        font-style: italic;
+        font-family: 'Nosifer', cursive;
+
+
+    }
+
+    #main-8 #dust h1::after {
+        content: "TEAM";
+        color: rgba(6, 192, 6, 0.904);
+
+    }
+
+    #main-8 #section-8 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #main-8 #section-8 #aside-8 {
+        margin: 0px 3px;
+        padding: 4px 0px;
+        padding-bottom: 9px;
+        width: 28%;
+        text-align: center;
+        box-shadow: 0px 0px 4px 2px #967d7d;
+        cursor: pointer;
+        transition: All 0.5s linear;
+    }
+
+    #main-8 #section-8 #aside-8:hover {
+        transform: scale(1.04);
+    }
+
+
+
+    #main-8 #section-8 #aside-8 img {
+        width: 300px;
+    }
+
+    #main-8 #section-8 #aside-8 h3 {
+        margin: 6px 2px;
+        padding: 1px 1px;
+        text-align: center;
+        /* letter-spacing: 0.03em; */
+    }
+
+    #main-8 #section-8 #aside-8 p {
+        margin: 2px 2px;
+        padding: 1px 1px;
+        font-family: 'Bree Serif', serif;
+        font-size: 0.85rem;
+        color: rgb(73, 68, 68);
+        font-family: 'Bree Serif', serif;
+
+    }
+
+    #main-8 #section-8 #aside-8 .btn {
+        margin: 2px 2px;
+        padding: 3px 16px;
+        border-radius: 4px;
+        color: white;
+        border: 2px solid black;
+        background-color: rgba(6, 192, 6, 0.904);
+
+    }
+
+    #main-8 #section-8 #aside-8 .btn:hover {
+        color: rgba(6, 192, 6, 0.904);
+        border: 2px solid rgba(6, 192, 6, 0.904);
+        background-color: #fff;
+
+    }
+
+    /* main-11 section starts hear */
+
+    #main-11 {
+        height: 335vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #main-11 #div-11 {}
+
+    #main-11 #div-11 h1 {
+        margin-bottom: 42px;
+        font-style: italic;
+        font-family: 'Nosifer', cursive;
+
+    }
+
+    #main-11 #div-11 h1::after {
+        content: "VARITIES";
+        color: rgba(6, 192, 6, 0.904);
+
+    }
+
+    #main-11 #section-11 {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #main-11 #section-11 #aside-11 {
+        text-align: center;
+        width: 29%;
+        margin: 4px 4px;
+        padding: 15px 1px;
+        /* border: 2px solid red; */
+        box-shadow: 0px 0px 2px 1px #a59d9d;
+        cursor: pointer;
+        transition: All 0.5s linear;
+    }
+
+    #main-11 #section-11 #aside-11:hover {
+        transform: scale(1.05);
+    }
+
+    #main-11 #section-11 #aside-11 img {
+        width: 347px;
+
+
+    }
+
+    #main-11 #section-11 #aside-11 h3 {
+        margin-top: 2px;
+        margin-bottom: 3px;
+        padding: 1px 1px;
+    }
+
+    #main-11 #section-11 #aside-11 span::after {
+        content: "25.8$";
+        font-weight: bold;
+        color: rgba(6, 192, 6, 0.904);
+
+    }
+
+    #main-11 #section-11 #aside-11 .btn-11 {
+        margin: 4px 2px;
+        margin-left: 13px;
+        padding: 3px 16px;
+        color: white;
+        border: 2px solid black;
+        border-radius: 4px;
+        background-color: crimson;
+    }
+
+    #main-11 #section-11 #aside-11 .btn-11:hover {
+        color: crimson;
+        border: 2px solid crimson;
+        background-color: #fff;
+    }
+
+    /* #main-12 starts hear */
+
+    #main-12 {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(252, 248, 248);
+    }
+
+    #main-12 #div-12 {
+        text-align: center;
+    }
+
+    #main-12 #div-12 h3 {
+        margin: -1px 2px;
+        padding: 1px 1px;
+        font-style: italic;
+        font-family: 'Nosifer', cursive;
+        color: rgba(6, 192, 6, 0.904);
+
+    }
+
+    #main-12 #div-12 h1 {
+        margin: 1px 1px;
+        margin-bottom: 44px;
+        padding: 1px 1px;
+        font-family: 'Kaushan Script', cursive;
+        font-size: 1.5rem;
+        /* letter-spacing: 0.085em; */
+    }
+
+    #main-12 #section-12 {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #main-12 #section-12 #aside-main {
+        width: 28%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #main-12 #section-12 #aside-main #container-12 {
+
+        background-color: white;
+        box-shadow: 0px 0px 4px 1px #715e5e;
+        margin-right: 7px;
+        cursor: pointer;
+        transition: All 0.5s linear;
+
+
+    }
+
+    #main-12 #section-12 #aside-main #container-12:hover {
+        transform: scale(1.05);
+    }
+
+    #main-12 #section-12 #aside-main #container-12 h3::after {
+        content: "Khore";
+        color: rgba(6, 192, 6, 0.904);
+
+
+    }
+
+    #main-12 #section-12 #div-13 img {
+        width: 63px;
+        margin-top: 6px;
+        margin-left: 35px;
+
+    }
+
+    #main-12 #section-12 #aside-12 {
+        margin-left: 7px;
+        margin-right: 17px;
+
+    }
+
+    #main-12 #section-12 #aside-12 h3 {
+        margin: 3px 3px;
+        padding: 1px 1px;
+        /* font-family: 'Kaushan Script', cursive; */
+        font-family: 'Source Sans Pro', sans-serif;
+
+
+    }
+
+    #main-12 #section-12 #aside-12 p {
+        margin: 7px 2px;
+        padding: 1px 1px;
+        margin: 7px 2px;
+        margin-top: -1px;
+        padding: 1px 1px;
+        text-align: justify;
+        font-size: 0.85rem;
+        color: rgb(73, 68, 68);
+        font-family: 'Bree Serif', serif;
+
+
+    }
+
+
+    /* main-15 section starts hear */
+    #main-15 {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(245, 237, 237);
+    }
+
+    #main-15 #div-15 h1 {
+        margin-bottom: 44px;
+        font-style: italic;
+        font-family: 'Nosifer', cursive;
+
+    }
+
+    #main-15 #div-15 h1::after {
+        content: "NOW";
+        color: rgba(6, 192, 6, 0.904);
+
+    }
+
+    #main-15 #section-15 {}
+
+    #main-15 #section-15 #aside-15 {}
+
+    #main-15 #section-15 #aside-15 .form-group {
+        width: 100%;
+
+    }
+
+    #main-15 #section-15 #aside-15 .form-group label {
+        font-family: 'Bree Serif', serif;
+
+    }
+
+    #main-15 #section-15 #aside-15 .form-group input {
+        /* text-align: center; */
+        margin-left: 250px;
+        margin-bottom: 3px;
+        padding: 4px 5px;
+        width: 90%;
+        border: 1.4px solid black;
+        font-family: 'Nanum Myeongjo', serif;
+    }
+
+    #main-15 #section-15 #aside-15 .form-group .item {
+        font-family: 'Bree Serif', serif;
+
+    }
+
+    #main-15 #section-15 #aside-15 .form-group input.submit {
+        width: 92%;
+        color: white;
+        cursor: pointer;
+        border: 2px solid black;
+        border-radius: 4px;
+        background-color: rgba(6, 192, 6, 0.904);
+        /* font-family: 'Nosifer', cursive; */
+        font-family: 'Bree Serif', serif;
+
+
+
+    }
+
+    #main-15 #section-15 #aside-15 .form-group input.submit:hover {
+        background-color: white;
+        color: rgba(6, 192, 6, 0.904);
+        border: 2px solid rgba(6, 192, 6, 0.904);
+
+    }
+
+    /* main-20 section starts hear */
+    #main-20 {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #main-20 #div-20 h1 {
+        margin-bottom: 44px;
+        font-style: italic;
+        font-family: 'Nosifer', cursive;
+
+    }
+
+    #main-20 #div-20 h1::after {
+        content: "US";
+        color: rgba(6, 192, 6, 0.904);
+    }
+
+    #main-20 #section-20 {
+        display: flex;
+    }
+
+    #main-20 #section-20 #aside-20 {
+        /* width: 136%; */
+        margin-right: 10px;
+        display: flex;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 4px 1px #715e5e;
+        transition: All 0.5s linear;
+
+    }
+
+    #main-20 #section-20 #aside-20:hover {
+        transform: scale(1.05);
+    }
+
+    #main-20 #section-20 #aside-20 #div-21 img {
+        width: 50px;
+        margin-left: 50px;
+
+    }
+
+    #main-20 #section-20 #aside-20 #div-22 {
+        margin: 20px 5px;
+        margin-right: 50px;
+        padding: 1px 1px;
+    }
+
+    #main-20 #section-20 #aside-20 #div-22 h3 {
+        margin: 8px 2px;
+        padding: 1px 1px;
+        /* font-family: 'Bree Serif', serif; */
+        font-family: 'Source Sans Pro', sans-serif;
+
+    }
+
+    #main-20 #section-20 #aside-20 #div-22 p {
+        margin: 2px 2px;
+        padding: 1px 0px;
+        font-size: 0.8rem;
+        color: rgb(73, 68, 68);
+    }
+
+    /* footer section starts hear */
+
+    #main-25 {
+
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(247, 243, 243);
+
+    }
+
+    #main-25 #aside-25 {}
+
+    #main-25 #aside-25 #div-25 {}
+
+    #main-25 #aside-25 #div-25 h3 {
+        font-family: 'Bree Serif', serif;
+
+    }
+
+    #main-25 #aside-25 #div-25 li {
+        margin: 6px 2px;
+        list-style: none;
+    }
+
+    #main-25 #aside-25 #div-25 li a {
+        /* color: black; */
+        color: rgb(73, 68, 68);
+        text-decoration: none;
+    }
+
+    #main-25 #aside-25 #div-25 p {
+        margin: 6px 2px;
+        color: rgb(73, 68, 68);
+
+    }
+
+    footer {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(247, 243, 243);
+    }
+
+    footer h4 {
+        text-align: center;
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin-right: 407px;
+
+
+
+    }
+</style>
+
+<body>
+    <header>
+        <div id="logo">
+            <h4>5 STAR </h4><span></span>
+            <!-- <img src="../logo-3.jpg" alt=""> -->
+        </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#" a>HOME</a></li>
+                <li><a href="#" a>ABOUT</a></li>
+                <li><a href="#" a>MENU</a></li>
+                <li><a href="#" a>SERVICES</a></li>
+                <li><a href="#" a>MORE VARITIES</a></li>
+                <li><a href="#" a>OUR TEAM</a></li>
+                <li><a href="#" a>ORDER NOW</a></li>
+                <li><a href="#" class="active" a>CONTACT INFO</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main class="main-1">
+
+        <section id="section-1">
+            <!-- <h3>Ever Best Food For Your</h3> -->
+            <!-- <h1> </h1><span></span> -->
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ipsum non itaque rerum incidunt dicta. Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ducimus? Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+
+            <div id="div-first">
+                <h1>Our Special </h1><span></span>
+                <h3> Hott </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus cupiditate incidunt modi error
+                    exercitationem doloribus nobis iusto quas voluptates iste! Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Quo autem consequuntur odio dolorem minus architecto? Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Asperiores enim quisquam eaque unde repudiandae natus? </p>
+                <button class="btn-2">Order Now</button>
+            </div>
+
+            <div id="div-second">
+                <img src="menu pizza new-2.jpg" alt="">
+            </div>
+        </section>
+    </main>
+
+
+    <main id="main-2">
+        <div id="one">
+            <h1>ABOUT US </h1><span></span>
+            <h2>Why Choose Us</h2>
+        </div>
+        <section id="section-2">
+            <aside id="aside-1">
+                <img src="about section logo-2.jpg" alt="">
+                <h2>With Best Facility </h2>
+                <h2>Our Restaurent At In The Middle Of Town ! </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Cumque a quaerat quo assumenda repellat odio quas aliquid esse magnam omnis,
+                    ratione dolore nesciunt rerum iste? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Provident, molestias beatae pariatur corrupti reprehenderit quod? Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Temporibus tenetur nesciunt ab corporis et voluptates, natus incidunt
+                    magni hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, dignissimos? Totam!
+                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, eos.
+                    Lorem ipsum dolosit amet. Lorem, ipsum. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Inventore, minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eveniet! Lorem,
+                    ipsum.</p>
+            </aside>
+
+
+            <aside id="aside-2">
+                <img src="restaurent-2.jpg" alt="">
+            </aside>
+        </section>
+    </main>
+    <main id="main-3">
+        <div>
+            <h1>MENU</h1>
+            <h2>Top Food Items</h2>
+        </div>
+        <aside id="aside-1">
+
+            <section id="section-3">
+                <img src="menu nonvage.jpg" alt="">
+                <h3> Yummy Food </h3><span> </span>
+                <button class="btn"> Add to card</button>
+            </section>
+            <section id="section-3">
+                <img src="menu dni-2.jpg" alt="">
+                <h3> Top Food </h3><span></span>
+                <button class="btn"> Add to card</button>
+            </section>
+            <section id="section-3">
+                <img src="menu pizza new-2.jpg">
+                <h3>Hot Pizza </h3><span></span>
+                <button class="btn"> Add to card</button>
+            </section>
+            <section id="section-3">
+                <img src="Kadai paneer.jpg" alt="">
+                <h3>Matar Paneer </h3><span></span>
+                <button class="btn"> Add to card</button>
+            </section>
+            <section id="section-3">
+                <img src="menu thali -7.jpg" alt="">
+                <h3>Vage Thali </h3><span></span>
+                <button class="btn"> Add to card</button>
+            </section>
+            <section id="section-3">
+                <img src="menu kaju kdi.jpg" alt="">
+                <h3>Kaju kadhi </h3><span></span>
+                <button class="btn"> Add to card</button>
+            </section>
+            <section id="section-3">
+                <img src="bg img-10.jpg" alt="">
+                <h3>Testy Burger </h3><span></span>
+                <button class="btn"> Add to card</button>
+            </section>
+            <section id="section-3">
+                <img src="bg-12.jpg" alt="">
+                <h3>Testy Pasta </h3><span></span>
+                <button class="btn"> Add to card</button>
+            </section>
+            <section id="section-3">
+                <img src="menu kachori chaat.JPG" alt="">
+                <h3>Kachori Chaat </h3><span></span>
+                <button class="btn"> Add to card</button>
+            </section>
+
+        </aside>
+    </main>
+
+
+    <main id="main-4">
+        <div id="two">
+            <h3>SERVICES</h3>
+            <h1>We Provide Better</h1>
+        </div>
+        <section id="section-5">
+            <aside id="aside-5">
+                <h2>With Best Services</h2>
+                <h2>We Provide Room For Guest Minimum Price!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, amet. Odit distinctio velit
+                    nesciunt, blanditiis quibusdam quae libero eos ex. Aut maiores commodi consequuntur placeat
+                    perferendis a consequatur amet qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                    saepe corporis, dolorem pariatur ratione minima? Lorem ipsum, dolor sit amet consectetur adipisicing
+                    elit. Voluptate molestias nemo laudantium dignissimos quod non ipsam quaerat rem commodi in. Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Quasi nesciunt labore, eligendi distinctio natus
+                    dolore? Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </aside>
+            <aside id="aside-6">
+                <img src="Romm-1.jpg" alt="">
+            </aside>
+
+        </section>
+    </main>
+    <main id="main-8">
+        <div id="dust">
+            <h1>OUR </h1><span></span>
+        </div>
+        <section id="section-8">
+            <aside id="aside-8">
+                <img src="our new.jpg" alt="">
+                <h3> Food Spaecialist</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit placeat laborum sunt.</p>
+                <button class="btn">Book Now</button>
+
+            </aside>
+            <aside id="aside-8">
+                <img src="our new-3.jpg" alt="">
+                <h3>Food Spaecialist</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, rerum. Incidunt, itaque.</p>
+                <button class="btn">Book Now</button>
+
+            </aside>
+            <aside id="aside-8">
+                <img src="our team-1.jpg" alt="">
+                <h3>Food Spaecialist</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi est culpa?</p>
+                <button class="btn">Book Now</button>
+
+            </aside>
+        </section>
+    </main>
+    <main id="main-11">
+        <div id="div-11">
+            <h1>MORE </h1> <span></span>
+        </div>
+        <section id="section-11">
+            <aside id="aside-11">
+                <img src="menu dhi.jpg" alt="">
+                <h3>Delicieus</h3>
+                <span></span><button class="btn-11">Order Now</button>
+            </aside>
+            <aside id="aside-11">
+                <img src="menu cold drink.png" alt="">
+                <h3>Delicieus</h3>
+                <span></span><button class="btn-11">Order Now</button>
+            </aside>
+            <aside id="aside-11">
+                <img src="menu burger new.jpg" alt="">
+                <h3>Delicieus</h3>
+                <span></span><button class="btn-11">Order Now</button>
+            </aside>
+            <aside id="aside-11">
+                <img src="menu kachori chaat-1.jpg" alt="">
+                <h3>Delicieus</h3>
+                <span></span><button class="btn-11">Order Now</button>
+            </aside>
+            <aside id="aside-11">
+                <img src="menu cake-1.jpg" alt="">
+                <h3>Delicieus</h3>
+                <span></span><button class="btn-11">Order Now</button>
+            </aside>
+            <aside id="aside-11">
+                <img src="menu sandwich-1.jpg" alt="">
+                <h3>Delicieus</h3>
+                <span></span><button class="btn-11">Order Now</button>
+            </aside>
+            <aside id="aside-11">
+                <img src="menu moong daal halwa.jpg" alt="">
+                <h3>Delicieus</h3>
+                <span></span><button class="btn-11">Order Now</button>
+            </aside>
+            <aside id="aside-11">
+                <img src="menu momos.png" alt="">
+                <h3>Delicieus</h3>
+                <span></span><button class="btn-11">Order Now</button>
+            </aside>
+            <aside id="aside-11">
+                <img src="menu-mancurian.jpg" alt="">
+                <h3>Delicieus</h3>
+                <span></span><button class="btn-11">Order Now</button>
+            </aside>
+            <aside id="aside-11">
+                <img src="menu berger new-2.jpg" alt="">
+                <h3>Delicieus</h3>
+                <span></span><button class="btn-11">Order Now</button>
+            </aside>
+            <aside id="aside-11">
+                <img src="menu cup ice ...jpg" alt="">
+                <h3>Delicieus</h3>
+                <span></span><button class="btn-11">Order Now</button>
+            </aside>
+            <aside id="aside-11">
+                <img src="menu gajer halea-3.webp" alt="">
+                <h3>Delicieus</h3>
+                <span></span><button class="btn-11">Order Now</button>
+            </aside>
+            <aside id="aside-11">
+                <img src="menu sandwich-2.jpg" alt="">
+                <h3>Delicieus</h3>
+                <span></span><button class="btn-11">Order Now</button>
+            </aside>
+            <aside id="aside-11">
+                <img src="menu momos-2.jpg" alt="">
+                <h3>Delicieus</h3>
+                <span></span><button class="btn-11">Order Now</button>
+            </aside>
+            <aside id="aside-11">
+                <img src="menu-panjabi thali.jpg" alt="">
+                <h3>Delicieus</h3>
+                <span></span><button class="btn-11">Order Now</button>
+            </aside>
+        </section>
+    </main>
+    <main id="main-12">
+        <div id="div-12">
+            <h3>CLIENTS OVERVIEW</h3>
+            <h1>What They Say</h1>
+        </div>
+        <section id="section-12">
+            <aside id="aside-main">
+                <container id="container-12">
+
+                    <div id="div-13">
+                        <img src="logo-4.jpg" alt="">
+                    </div>
+                    <aside id="aside-12">
+                        <h3>Ayushi </h3><span></span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt nam perspiciatis quam
+                            inventore
+                            sit culpa vel nihil! Lorem ipsum dolor sit amet Lorem, ipsum !</p>
+                    </aside>
+                </container>
+
+
+
+
+            </aside>
+            <aside id="aside-main">
+                <conrainer id="container-12">
+
+                    <div id="div-13">
+                        <img src="logo-2.jpg" alt="">
+                    </div>
+                    <aside id="aside-12">
+                        <h3>Muskan </h3><span></span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt nam perspiciatis quam
+                            inventore
+                            sit culpa vel nihil! Lorem ipsum dolor sit amet Lorem, ipsum !</p>
+                    </aside>
+                </conrainer>
+            </aside>
+            <aside id="aside-main">
+                <container id="container-12">
+
+                    <div id="div-13">
+                        <img src="logo-1.jpg" alt="">
+                    </div>
+                    <aside id="aside-12">
+                        <h3>Taniya </h3><span></span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt nam perspiciatis quam
+                            inventore
+                            sit culpa vel nihil! Lorem ipsum dolor sit amet Lorem, ipsum!</p>
+                    </aside>
+                </container>
+            </aside>
+        </section>
+    </main>
+    <main id="main-15">
+        <div id="div-15">
+            <h1>ORDER </h1><span></span>
+        </div>
+        <section id="section-15">
+            <aside id="aside-15">
+                <form action="backend.php" class="form-group">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="name" id="Name" placeholder="enter your name">
+                    </div>
+
+
+                    <div>
+                        <label for=" email">Email:</label>
+                        <input type="email" name="Email" id="email" placeholder="enter your email">
+                    </div>
+
+
+                    <div>
+                        <label for=" mobile number">Mobile Number:</label>
+                        <input type="mobile number" name="" id="Mobile number" placeholder="enter your  mobile number">
+                    </div>
+
+
+                    <div>
+                        <label for="phone number">Phone Number:</label>
+                        <input type=" phone number" name="" id="phone number" placeholder="enter your phone number">
+                    </div>
+
+
+                    <div>
+                        <lable class="item" for="item">Item:</lable>
+                        <input type="text" id="item" placeholder="enter your item">
+                    </div>
+
+
+                    <div>
+                        <lable class="item" for="quantity">Quantity:</lable>
+                        <input type="text" id="quantity" placeholder="enter your quantity">
+                    </div>
+
+
+                    <div>
+                        <label class="item" for="address">Address:</label>
+                        <input type="text" id="address" placeholder="enter your address">
+                    </div>
+
+
+                    <div>
+                        <lable class="item" for="text">Text:</lable>
+                        <input type="text" name="" id="Text" placeholder="enter your text">
+                    </div>
+
+                    <br>
+                    <div>
+                        <input class="submit" type="submit" value="SUBMIT">
+                        <input class="submit" type="reset" value="RESET">
+                    </div>
+                </form>
+            </aside>
+        </section>
+
+    </main>
+    <main id="main-20">
+        <div id="div-20">
+            <h1>CONTACT </h1><span></span>
+        </div>
+        <section id="section-20">
+            <aside id="aside-20">
+                <div id="div-21">
+                    <img src="mobile logo3.jpg" alt="">
+                </div>
+                <div id="div-22">
+                    <h3>PHONE</h3>
+                    <p>+123-864-4935</p>
+                    <p>+898-919-3802</p>
+                </div>
+            </aside>
+            <aside id="aside-20">
+                <div id="div-21">
+                    <img src="Email logo.png" alt="">
+                </div>
+                <div id="div-22">
+                    <h3>EMAIL</h3>
+                    <p>Shaikhanas@Gmail.com</p>
+                    <p>MohitChoudhary@Gmail.com</p>
+                </div>
+            </aside>
+            <aside id="aside-20">
+                <div id="div-21">
+                    <img src="Address logo.png" alt="">
+                </div>
+                <div id="div-22">
+                    <h3>ADDRESS</h3>
+                    <p>Mumbai, india</p>
+                    <p>400104</p>
+                </div>
+            </aside>
+
+        </section>
+    </main>
+    <main id="main-25">
+        <aside id="aside-25">
+            <div id="div-25">
+                <h3>Locations</h3>
+                <p>India</p>
+                <p>Japan</p>
+                <p>Russia</p>
+                <p>France</p>
+                <p>USA</p>
+                <p>Ucrain</p>
+
+            </div>
+        </aside>
+        <aside id="aside-25">
+            <div id="div-25">
+                <h3>Quick Links</h3>
+                <!-- <p>Home</p>
+                <p>About</p>
+                <p>Menu</p>
+                <p>Services</p>
+                <p>Clients Overview</p>
+                <p>Order Now</p> -->
+                <li><a href="#" a>HOME</a></li>
+                <li><a href="#" a>ABOUT</a></li>
+                <li><a href="#" a>MENU</a></li>
+                <li><a href="#" a>SERVICES</a></li>
+                <li><a href="#" a>CLIENTS OVERVIEW</a></li>
+                <li><a href="#" a>ORDER NOW</a></li>
+
+
+
+            </div>
+        </aside>
+        <aside id="aside-25">
+            <div id="div-25">
+                <h3>Contact Info</h3>
+                <p>+123-864 4935</p>
+                <p>+898-919-3802</p>
+                <p>Abhijain@Gmail.Com</p>
+                <p>Shaikhanas@Gmail.Com</p>
+                <p>Mohitchoudry@Gmail.Com</p>
+                <p>Mumbai,india - 400104</p>
+            </div>
+        </aside>
+        <aside id="aside-25">
+            <div id="div-25">
+                <h3>Follow Us</h3>
+                <p>Instagram</p>
+                <p>Twitter</p>
+                <p>Linkdin</p>
+                <p>Facebook</p>
+
+            </div>
+        </aside>
+        <!-- <aside id="aside-25">
+              <div id="div-25">
+                  <h3>Locations</h3>
+                  <p>India</p>
+                  <p>Japan</p>
+                  <p>Russia</p>
+                  <p>France</p>
+                  <p>USA</p>              
+              </div>
+        </aside> -->
+
+
+    </main>
+    <footer>
+        <hr>
+        <h4>Copywrite &copy; criated by Mohit Choudhary, All right riserved !</h4>
+    </footer>
+</body>
+
+</html>
